@@ -27,7 +27,7 @@ COPY . .
 RUN npm run build
 
 ######## WebUI backend ########
-FROM python:3.11-slim-bookworm as base
+FROM python:3.13.0b4-slim as base
 
 # Use args
 ARG USE_CUDA
