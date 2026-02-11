@@ -4,18 +4,18 @@ pydantic==2.7.1
 python-multipart==0.0.9
 
 Flask==3.0.3
-Flask-Cors==4.0.0
+Flask-Cors==4.0.1
 
 python-socketio==5.11.2
-python-jose==3.3.0
+python-jose==3.4.0
 passlib[bcrypt]==1.7.4
 
-requests==2.31.0
+requests==2.32.2
 aiohttp==3.9.5
-peewee==3.17.3
+peewee==3.18.3
 peewee-migrate==1.12.2
 psycopg2-binary==2.9.9
-PyMySQL==1.1.0
+PyMySQL==1.1.1
 bcrypt==4.1.2
 
 litellm[proxy]==1.35.28
@@ -33,10 +33,10 @@ langchain-chroma==0.1.0
 fake-useragent==1.5.1
 chromadb==0.4.24
 sentence-transformers==2.7.0
-pypdf==4.2.0
+pypdf==6.0.0
 docx2txt==0.8
 python-pptx==0.6.23
-unstructured==0.11.8
+unstructured==0.14.3
 Markdown==3.6
 pypandoc==1.13
 pandas==2.2.2
@@ -57,5 +57,17 @@ PyJWT[crypto]==2.8.0
 
 black==24.4.2
 langfuse==2.27.3
-youtube-transcript-api==0.6.2
+youtube-transcript-api==0.6.3
 pytube
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+nltk>=3.9 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
+marshmallow>=3.26.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.0 # not directly required, pinned by Snyk to avoid a vulnerability
